@@ -1,5 +1,9 @@
 class categoria:
-	pass
+	def __init__(self):
+		pass
+
+	def __JSON__(self):
+		return "{ \"id\" : "+self.id+"},\n"+"\"nombre\":\""+self.nombre+"\",\n"+"\"status\":\""+self.status+"\"}"
 
 class cliente:
 	pass
