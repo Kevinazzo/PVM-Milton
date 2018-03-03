@@ -11,3 +11,5 @@ class sucursal:
 	pass
 class colonia:
     pass
+class empresa:
+	pass
