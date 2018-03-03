@@ -5,7 +5,6 @@ class categoria:
 		self.desc = _desc
 		self.status = _status
 	def __JSON__(self):
-<<<<<<< HEAD
 		return "{ \"id\" : "+self.id+"},\n"+"\"nombre\":\""+self.nombre+"\",\n"+"\"status\":\""+self.desc+"\",\n"+ "\"status\":\""+self.status+"\"\n}"
 
 class administrador:
@@ -41,9 +40,9 @@ class clasificacion:
 	def __JSON__ (self):
 		return "{ \"id_categoria\" : "+self.id_categoria+"},\n"+"{\"id_producto\":\""+self.id_producto+"},\n"
 	
-=======
+
 		return "{ \"id\" : " + self.id + "},\n" + "\"nombre\":\"" + self.nombre + "\",\n" + "\"status\":\"" + self.status + "\",}"
->>>>>>> c41958fded96d4033741f90a4c0859996d790454
+
 
 class cliente:
 	def __init__ (self,_id_cliente,_apellido1,_apellido2,_correo,_estatus,_nombre,_password,_telefono,_direcciones):
@@ -77,7 +76,7 @@ class codigo_postal:
 		self.estatus=_estatus
 		pass
 	def __JSON__ (self):
-		return "{ \"id_cp\" : "+self.id_cp+"},\n"+"\"codigo_postal\":\""+self.codigo_postal"\",\n"+"\"estatus\":\""+self.estatus"\"\n}"
+		return "{ \"id_cp\" : "+self.id_cp+"},\n"+"\"codigo_postal\":\""+self.codigo_postal+"\",\n"+"\"estatus\":\""+self.estatus+"\"\n}"
 	
 class colonia:
 	def __init__ (self,_id_colonia,_id_cp,_id_estado,_colonia,_estatus):
@@ -88,8 +87,7 @@ class colonia:
 		self.estatus=_estatus
 		pass
 	def __JSON__ (self):
-		return "{ \"id_colonia\" : "+self.id_colonia+"},\n"+"{\"id_cp\":\""+self.id_cp+"},\n"+"{\"id_estado\":\""+self.id_estado+"},\n"+
-		"\"colonia\":\""+self.colonia"\",\n" + "\"estatus\":\""+self.estatus"\"\n}"
+		return "{ \"id_colonia\" : "+self.id_colonia+"},\n"+"{\"id_cp\":\""+self.id_cp+"},\n"+"{\"id_estado\":\""+self.id_estado+"},\n"+"\"colonia\":\""+self.colonia"\",\n" + "\"estatus\":\""+self.estatus"\"\n}"
 	
 	
 class direccion_cliente:
@@ -196,18 +194,18 @@ class repartidor:
 
 class sucursal:
 	pass
-<<<<<<< HEAD
+
 
 class tipo_entrega:
 	pass
 
 class tipo_pago:
-=======
+
 class colonia:
     pass
 class empresa:
 	pass
 
 class ciudad:
->>>>>>> c41958fded96d4033741f90a4c0859996d790454
+
 	pass
