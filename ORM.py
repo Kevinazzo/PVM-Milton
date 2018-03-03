@@ -9,3 +9,5 @@ class Producto:
 
 class sucursal:
 	pass
+class colonia:
+    pass
