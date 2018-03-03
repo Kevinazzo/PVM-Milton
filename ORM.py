@@ -19,4 +19,5 @@ class sucursal:
 class colonia:
     pass
 class empresa:
+    david=david
 	pass
