@@ -32,8 +32,6 @@
     <Compile Include="login\admin.py" />
     <Compile Include="login\apps.py" />
     <Compile Include="login\migrations\__init__.py" />
-    <Compile Include="login\models.py" />
-    <Compile Include="login\tests.py" />
     <Compile Include="login\urls.py" />
     <Compile Include="login\views.py" />
     <Compile Include="login\__init__.py" />
